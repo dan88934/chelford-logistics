@@ -1,4 +1,4 @@
-# courier_app
+# Chelford Logistics
 
 This is a redacted and simplified version of a logistics web app that I developed for a client in January 2024.
 
@@ -6,4 +6,5 @@ This application allows users to add orders to the database by filling in a form
 
 In accordance with my confidentiality agreement with the client, I have changed the name and logo of the company and removed most of the backend functionality, including the integration with their third party tracking API.
 
+# Tests Usage
 There are frontend and backend tests included, utilizing Selenium and Unittest. These can be ran from the main directory with 'python -m unittest'.
