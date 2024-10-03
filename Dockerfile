@@ -26,4 +26,5 @@ EXPOSE 6060
 #CMD ["gunicorn", "-b", "0.0.0.0:8000", "api"]
 #ENTRYPOINT ["./gunicorn.sh"]
 
-CMD gunicorn --worker-class gevent --workers 8 --bind 0.0.0.0:6060 wsgi:app --max-requests 10000 --timeout 5 --keep-alive 5 --log-level info
+CMD gunicorn --worker-class gevent --workers 2 --bind 0.0.0.0:6060 wsgi:app --max-requests 10000 --timeout 5 --keep-alive 5 --log-level info
+
